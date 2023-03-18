@@ -1,0 +1,39 @@
+body{
+  box-sizing: border-box;
+}
+header {
+    background-color: rgb(224, 18, 18);
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  nav li {
+    margin: 0 50px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    background-color: rgb(145, 200, 209);
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
